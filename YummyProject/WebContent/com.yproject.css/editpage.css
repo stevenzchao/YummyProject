@@ -1,0 +1,84 @@
+@charset "UTF-8";
+.left_col{
+	height: 100%;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+    background-color: grey;
+    overflow-x: hidden;
+}
+.sidediv{
+    height: 30%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    clear: right;
+    float: left;
+    margin: 10px;
+}
+#a1,#a2,#a3,#a4 {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+#a1:hover{
+    background-color: #E0E0E0;
+    color: black;
+}
+#a2:hover{
+    background-color: #E0E0E0;
+    color: black;
+}
+#a3:hover{
+    background-color: #E0E0E0;
+    color: black;
+}
+#a4:hover{
+    background-color: #E0E0E0;
+    color: black;
+}
+.right_col{
+	background-color:#D0D0D0;
+	height: 100%;
+    width: 75%;
+    position: absolute;
+    right:0;
+  	font-size:20px;
+}
+.user_info_change{
+	display:block;
+}
+
+.t1{
+	display:block;
+	margin-left:10px;
+}
+
+#side2{
+	display:none;
+}
+#side2 input{
+	display:block;
+	margin-left:10px;
+}
+#side2 p{
+	margin-left:10px;
+	margin-bottom:25px;
+}
+.subbtn{
+	display:block;
+	margin:10px;
+}
+#side1{
+	display:none;
+	margin:20px;
+}
+#side3{
+	display:none;
+}
+#side4{
+	display:none;
+}

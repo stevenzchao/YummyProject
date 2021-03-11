@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首頁</title>
+    <link rel="stylesheet" href="../com.yproject.css/rwd.css">
+    <link rel="stylesheet" media="screen and  (max-width: 780px)" href="../com.yproject.css/rwd780.css" />
+
+    <style>
+	    .searchbar{
+		    width:100%;
+		    height:500px;
+		    background-size:cover;
+		    overflow: 0 auto;
+    		position: relative;
+	    }
+	    .searchbar::before{
+		    content: "";
+		    background:url("../images/food1.jpg");
+	        background-position: center;
+		    background-repeat: no-repeat;
+		    background-size: contain;
+		    position: absolute;
+		    top: 0px;
+		    right: 0px;
+		    bottom: 0px;
+		    left: 0px;
+		}
+       .relative1{
+	       position:absolute;
+	       top:50%;
+	       left:50%;
+	       transform:translate(-50%,-50%);
+	       width:400px;
+       }
+	        
+       .pclear{
+          clear:right;
+           
+          
+       }
+       .t1{
+          margin:10px;       
+          float:left;
+         
+       }
+       fieldset{
+           border-radius:20px;
+           background-color: white;
+           
+          
+       } 
+             
+    </style>
+    <script>
+        document.createElement("fieldset")
+    </script>
+</head>
+<body>
+    <div id="allpage">
+        <header>
+            
+            <nav>
+                <ul class="menu">
+                    <li><a href="">首頁</a></li>
+                    <li><a href="../com.yproject.jsp/LogIn.jsp">會員登入</a></li>
+                    <li><a href="http://localhost:8080/YummyProject/Mapstart">查詢</a></li>
+                    <li><a href="">個人頁面</a></li>
+                    <li><a href="../frontend/CompanyLogIn.jsp">店家專區</a></li>
+                </ul>
+            </nav>
+            
+             <div class="searchbar">  <!--分類、地點-->
+                 <form id="form-submit" action="" method="get">
+                     <div class="relative1">
+                          <fieldset>
+			                      <input name="classiflcation" type="text" class="" id="classiflcation" placeholder="美食分類、餐廳" required="" style="border-radius:20px 0px 0px 20px;height: 30px">
+			                      <input name="location" type="text" class="" id="location" placeholder="搜尋地點" required="" style="border-radius:0px 20px 20px 0px;height: 30px">
+			                      <button type="submit" id="form-submit" class=""><img src="../images/unnamed1.png"></button>
+			              </fieldset>
+			              
+                     </div>
+                 </form>
+             </div>
+             
+<!--              <img class="logo-img" src="../images/food1.jpg" title="logo" alt="logo">             -->
+        </header>
+        <div id="content" >
+            <article class="article">
+                <section class="section">
+                    <h2 style="text-align:center;color:blue">全台美食</h2> 
+                    <figure style="text-align:center;">
+                         <a href=""><img src="../images/HotPot.jpg" title="鍋類" width="350px"></a>
+		                 <a href=""><img src="../images/jfood.jpg" title="日式" width="350px"></a> 
+		                 <a href=""><img src="../images/roast.jpg" title="燒肉" width="350px"></a>
+		                 <a href=""><img src="../images/brunch.jpg" title="早午餐" width="350px"></a>
+		                 <a href=""><img src="../images/kfood.jpg" title="韓式" width="350px"></a>
+		                 <a href=""><img src="../images/dessert.jpg" title="甜點" width="350px"></a>
+                    
+                    </figure>
+                    
+                    <h2 style="text-align:center;color:blue">最新美食文章</h2>
+                    <figure class="t1">
+                        <a href=""><img alt="" src="../images/sheep.png" width="300px" ></a>
+                    </figure>
+                   
+                    <h3 class=""><a href="">Sheep+pony 正宗美式漢堡,國父紀念館重量級美味,滿滿的用心一口咬下就知道!</a></h3>
+                    <div class="pclear">
+                        <p>Sheep+pony 位於國父紀念館站，附近餐廳類型眾多，大多也都相當有個性，是質感餐館的一級戰區，Sheep+pony 無論在裝潢或餐點上，都很有美式的獨有風情，讓人不禁憶起在美國度假的時光～</p>
+                    	<p>不論是麵包、醬料、配料，能自己製作絕不假他人之手，向高標準對齊，店裡也提供多種進口精釀啤酒；以這種超高規格的食材來說，整體價格相當合理，如果你是漢堡愛好者 ，Sheep+pony 絕對值得特地來訪！</p>
+                    
+                    </div>
+                    <br><br><br><hr>
+                    
+                    <figure class="t1">
+                        <a href=""><img alt="" src="../images/rou.png" width="300px" ></a>
+                    </figure>
+                   
+                    <h3 class=""><a href="">肉食主義者的口袋名單!《肉 ROU BY T-HAM餐飲空間》帶你享受頂級的肉食饗宴,品味低調時尚的用餐空間</a></h3>
+                    <div class="pclear">
+                        <p>隱身在肉 RÒU BY T-HAM 總店2樓的「餐飲空間」，是專業老饕才知道的低調奢華聚餐場所，有著需要事先預訂的頂級肉品餐點，相當適合來與親友家人一起享用！</p>
+                    	<p>年節聚會特別多，為了滿足親朋好友的胃袋，相當推薦 RÒU BY T-HAM  的爐烤系列，或是限定外帶的爐烤香料烤鹿野土雞等都相當適合來與親友家人一起享用！</p>
+                    
+                    </div>
+                    <br><br><br><hr>
+                  
+                                   
+                </section>                
+            </article>
+            
+        </div>  <!--end content-->
+        <footer>
+                <p>2014 All Rights Reserved Quality Art Technology CO. </p>
+        </footer>
+    </div>  <!--end allpage-->
+</body>
+</html>

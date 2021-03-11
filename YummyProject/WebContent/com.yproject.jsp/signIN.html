@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>sing in Demo</title>
+<style>
+	*{
+		background-color:#FFF3EE;
+	}
+	.signbox{
+		width:300px;
+		text-align:center;
+		position:relative;
+		left:50%;
+		top:50px;
+		transform:translate(-50%);
+		box-shadow:5px 5px 10px #E0E0E0;
+	}
+	
+	input:focus {
+		background-color:#E0E0E0;
+	}
+</style>
+</head>
+<body>
+	<form method="get" action="../PersonalPage">
+		<fieldset class="signbox bgc">
+	           <legend>帳號登入</legend>
+	           <div class="div1 bgc">
+	               <label class="l1" for="account1">帳號:</label>
+	               <input type="text" id="account1" name="Account" autocomplete="off" value="youngCaptain@gamil.com">
+	               <span id="idsp"></span></p>
+	           </div>
+	           <div class="div1 bgc">
+	               <label class="l1" for="pwd">密碼:</label>
+	               <input type="password" id="pwd" name="PWD" value="a123456789">
+	               <span id="idsp2"></span>
+	           </div></p>
+	           <input type="submit" value="確定" />
+	           <input type="button" id="one_punch" value="一鍵輸入" onclick="oneput"/>
+	    </fieldset>
+	</form>    
+	
+	
+</body>
+</html>

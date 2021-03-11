@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Create Account</title>
+   <link rel="stylesheet" href="../com.yproject.css/rwd.css">
+   <!--  <link rel="stylesheet" media="screen and  (max-width: 780px)" href="rwd780.css" />-->
+   <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+   <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+   <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+   <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+   <script src="../com.yproject.js/CreatAccount.js"></script>
+</head>
+<body>
+    <div  id="allpage">
+        <header>
+            <h1>創建您的帳號</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="">01</a></li>
+                    <li><a href="">02</a></li>
+                    <li><a href="">03</a></li>
+                    <li><a href="">04</a></li>
+                </ul>
+            </nav>            
+        </header>
+        <div id="content">
+            <article class="articleall">
+                <section class="section">
+                    <form class="Data-Content" method="get" action="../creatAccountServlet" >
+					  <fieldset>
+					  <legend> 填寫基本資料</legend>
+					    <div class="Data-Title">
+					    <div class="text-align">
+						      <label for="name">姓名</label><br />
+						      <label for="nickName">暱稱</label><br />			      
+						      <label for="account">會員帳號</label><br />
+						      <label for="password">會員密碼</label><br />
+						      <label for="passwordCheck" >密碼確認</label><br />
+						      <label for="birth">生日(建議)</label><br />
+						      <label for="gender">姓別(建議)</label><br />
+						      <label for="cell">手機</label><br />
+						      <label for="address">所在地區(建議)</label><br />
+					      </div>
+					    </div>
+					    
+					    <div class="Data-Item">
+					      <input id="name" name="name">
+					      <input id="nickname" name="nickname">
+					      <input  id="account" name="account" >
+					      <input type="password" id="password" name="password" >
+					      <input type="password" id="passwordCheck" name="passwordCheck" >
+					      <input id="birth" name="birth" ><!-- nullable --><br>
+					      <input id="gender1" name="gender" type="radio" value="male">男<!-- nullable -->
+					      <input id="gender2" name="gender" type="radio"  value="female">女
+					      <input id="gender3" name="gender" type="radio"  value="unselect" checked >未定義<br><!-- nullable -->
+					      <input id="cell" name="cell" >
+					      <input id="address" name="address" title="Your home or work address."><!-- nullable -->
+					      <br><button id="button" disabled="disabled">送出</button>
+					      
+					     </div>
+					    <div class="Data-Span">	
+					    <span id="namenote"></span><br />
+					    <span id="nicknamenote"></span><br />
+					    <span id="accountnote"></span><br />
+					    <span id="pwdnote"></span><br />
+					    <span id="pwdchecknote"></span><br />
+					    <span id="birthnote"></span><br />
+					    <span id="gendernote"></span><br />
+					    <span id="cellnote"></span><br />
+					    <span id="addressnote"></span><br />
+					    </div>
+					    
+
+					  </fieldset>
+					</form>
+                </section>                
+            </article>
+        </div>  <!--end content-->
+        <footer>
+                <p>2014 All Rights Reserved Quality Art Technology CO. </p>
+        </footer>
+    </div>  <!--end allpage-->
+</body>
+</html>

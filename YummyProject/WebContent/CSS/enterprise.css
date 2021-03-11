@@ -1,0 +1,56 @@
+input:focus{
+    background-color:#e7e5e5;
+};
+legend{
+    text-align:center;
+}
+body {
+    font-family: 微軟正黑體;
+}
+
+fieldset {
+    width: 600px;
+    border: 2px solid #acd6ff;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.st1 {  
+    border-bottom: 1px solid #D0D0D0;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+.sub {
+    text-align: center;
+}
+
+p {
+    margin: 0%;
+    font-size: 80%;
+    color: gray;
+}
+
+.a {
+    font-size: 90%;
+}
+
+span {
+    font-size: 80%;
+    color: rgb(77, 77, 77);
+}
+
+.erro {
+    color: rgb(231, 50, 50);
+    font-style: italic
+}
+
+.ok {
+    color: rgb(26, 136, 50);
+}
+label{
+    width: 100px;
+    float: left;
+    text-align: right;
+    margin-right: 5px;
+}

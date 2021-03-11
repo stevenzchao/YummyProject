@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@import url("messagebox.css");
+@import url(topnavgation.css);
+body{
+	background-color:#e6f3ff;
+}
+.container{
+	width:80%;
+	display:table;
+	position:absolute;
+	left:50%;
+	transform: translate(-50%);
+	height:100%;
+}
+
+/* ====================== */
+.protrait{
+	
+	float:left;
+	width:65%;
+	height:auto;
+	margin:20px;
+	padding:20px;
+	
+}
+.protrait_photo {
+	width:100px;
+	height:100px;
+	
+	float:left;
+}
+.protrait_name{
+	width:auto;
+	height:auto;
+	float:left;
+	
+	
+	margin-left:10px;
+}
+.protrait_name span {
+	display:inline-block;
+	margin-left:10px;
+}
+.txtarea{
+	margin-top:10px;
+	margin-left:10px;
+}
+
+.level_container{
+	border:1px solid blue;
+	float:right;
+	width:25%;
+	height:200px;
+	margin-top:20px;
+	margin-right:5px;
+	padding:20px;
+	
+	
+}
+.stories{
+	background-color:#E0E0E0;
+	float:left;
+	width:65%;
+	height:auto;
+	margin:20px;
+	padding:10px;
+	clear:left;
+	
+}
+.status_container{
+	border:1px solid red;
+	float:right;
+	width:25%;
+	height:800px;
+	margin-top:20px;
+	margin-right:5px;
+	padding:20px;
+	
+}
+.message_block{
+	
+	float:left;
+	width:65%;
+	height:auto;
+	margin:20px;
+	padding:20px;
+	clear:left;
+	background-color:#ddd;
+}
+.medal_showone{
+	
+	background-color:#E0E0E0;
+	margin-top:10px;
+	width:100%;
+	height:70px;
+}
+.editfile{
+	margin-top:20px;
+	width:40%;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	background-color:#4F4F4F;
+	color:white;
+	text-decoration: none;
+}
+.editfile:hover{
+	font-weight: bolder;
+	box-shadow:5px 5px 5px #E0E0E0;
+}
+.friend_zone{
+	margin-top:150px;
+}
+.friend{
+	background-color:#E0E0E0;
+	padding:5px;
+}
+.story1{
+	
+	height:100%;
+	width:100%;
+}
+.st1img{
+	margin:10px;
+}
+.like_btn{
+	vertical-align:bottom;
+	
+}
+.comment_btn{
+	vertical-align:bottom;
+}
+
+
+footer {
+  float:left;	
+  margin-top:50px;
+  width:100%;
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+}
